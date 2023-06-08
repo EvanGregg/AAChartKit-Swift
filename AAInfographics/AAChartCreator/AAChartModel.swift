@@ -500,7 +500,7 @@ public class AAChartModel: AAObject {
     }
     
     
-
+/*
     @available(*, unavailable, message: "please use titleStyle instead of it")
     public var titleFontColor: String?      //The chart title font color
     @available(*, unavailable, message: "please use titleStyle instead of it")
@@ -527,7 +527,7 @@ public class AAChartModel: AAObject {
 
     @available(*, unavailable, message: "This property is useless now, please remove it directly")
     public var touchEventEnabled: Bool?     //Support touch event call back or not
-
+*/
     
     @available(*, unavailable, message: "please use titleStyle instead of it")
     public func titleFontColor(_ prop: String) -> AAChartModel {
